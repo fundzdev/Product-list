@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: hsl(13, 31%, 94%);
+    padding: 40px;
+}
+.overallcontainer{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.imagecontainer{
+    /* position: relative; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.cartcontainer{
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+    height: 72vh;
+}
+.h2{
+    font-size: 20px;
+    color: hsl(14, 86%, 42%);
+    margin-bottom: 20px;
+}
+.bill1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.c1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.order{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.p6{
+    font-size: 20px;
+    font-weight: 800;
+}
+.carbon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 5px;
+    padding: 5px;
+    background-color: hsl(13, 31%, 94%);
+}
+.carbon p{
+    font-size: 12px;
+}
+span{
+    font-weight: 700;
+}
+button{
+    padding: 8px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: hsl(14, 86%, 42%);
+    color: #fff;
+    border: none;
+}
+.img1{
+    width: 100%;
+    border-radius: 15px;
+    /* position: relative; */
+}
+.cart1{
+    /* position: absolute;
+    top: 200px;
+    left: 3px; */
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 5px;
+    width: 70%;
+    border: 1px solid hsl(12, 20%, 44%);
+    margin-bottom: 10px;
+}
+.p1{
+    color: hsl(12, 20%, 44%);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.p2{
+    color: hsl(14, 65%, 9%);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.p3{
+    color: hsl(14, 86%, 42%);
+    font-weight: 700;
+}
+.img2{
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid hsl(14, 86%, 42%);
+}
+.cart2{
+    background-color: hsl(14, 86%, 42%);
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    width: 50%;
+    border: 1px solid hsl(12, 20%, 44%);
+    margin-bottom: 10px;
+}
+.img3{
+    width: 100%;
+    border-radius: 15px;
+}
+.img4{
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid hsl(14, 86%, 42%);
+}
+.img5{
+    width: 100%;
+    border-radius: 15px;
+}
+.img6{
+    width: 100%;
+    border-radius: 15px;
+}
+.img7{
+    width: 100%;
+    border-radius: 15px;
+}
+.img8{
+    width: 100%;
+    border-radius: 15px;
+}
+.img9{
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid hsl(14, 86%, 42%);
+}
+.emty{
+    display: none;
+}
+@media (max-width:768px) {
+    .imagecontainer{
+        /* position: relative; */
+        width: 100%;
+        display: block;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+    }
+    .overallcontainer{
+        width: 100%;
+        display: block;
+        gap: 30px;
+    }
+    .cartcontainer{
+        margin-top: 50px;
+        background-color: #fff;
+        padding: 20px;
+        width: 100%;
+        border-radius: 10px;
+        height: 72vh;
+    }
+    .bill1{
+        display: none;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .order{
+        margin-top: 60px;
+        margin-bottom: 20px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .carbon{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 5px;
+        padding: 5px;
+        background-color: hsl(13, 31%, 94%);
+    }
+    button{
+        display: none;
+        padding: 8px;
+        border-radius: 15px;
+        width: 100%;
+        background-color: hsl(14, 86%, 42%);
+        color: #fff;
+        border: none;
+    }
+    .empty{
+        width: 80%;
+        /* align-items: center; */
+    }
+    .emptyimage {
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .emptyimage p{
+        color: hsl(12, 20%, 44%);
+    }
+}
