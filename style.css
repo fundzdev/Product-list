@@ -27,7 +27,7 @@ main{
     background-color: #fff;
     padding: 20px;
     width: 70%;
-    height: 72vh;
+    height: 80vh;
 }
 .h2{
     font-size: 20px;
@@ -38,11 +38,31 @@ main{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    border-bottom: 1px solid rgb(207, 206, 206);
+}
+.classic{
+    margin-bottom: 15px;
 }
 .c1{
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 5px;
+}
+.depreciation{
+    border: 1.5px solid #fff;
+    padding: 2px 2px 2px 2px;
+    border-radius: 100%;
+    justify-content: center;
+    line-height: 3px;
+    
+}
+.inflation{
+    border: 1.5px solid #fff;
+    padding: 3px 2px 3px 2px;
+    border-radius: 100%;
+    justify-content: center;
+    line-height: 3px;
+    
 }
 .order{
     margin-top: 60px;
@@ -84,21 +104,30 @@ button{
     border-radius: 15px;
     /* position: relative; */
 }
+.products1{
+    position: relative;
+    
+}
+.products2{
+    position: relative;
+    
+}
 .cart1{
-    /* position: absolute;
+    position: absolute;
     top: 200px;
-    left: 3px; */
+    left: 20%;
     justify-content: center;
     background-color: #fff;
     display: flex;
     border-radius: 20px;
     padding: 10px;
     gap: 5px;
-    width: 70%;
+    width: 140px;
     border: 1px solid hsl(12, 20%, 44%);
     margin-bottom: 10px;
 }
 .p1{
+    margin-top: 30px;
     color: hsl(12, 20%, 44%);
     font-size: 15px;
     margin-bottom: 10px;
@@ -118,12 +147,15 @@ button{
     border: 3px solid hsl(14, 86%, 42%);
 }
 .cart2{
+    position: absolute;
+    top: 200px;
+    left: 22%;
     background-color: hsl(14, 86%, 42%);
     display: flex;
     border-radius: 20px;
     padding: 10px;
     justify-content: space-between;
-    width: 50%;
+    width: 140px;
     border: 1px solid hsl(12, 20%, 44%);
     margin-bottom: 10px;
 }
@@ -223,5 +255,40 @@ button{
     }
     .emptyimage p{
         color: hsl(12, 20%, 44%);
+    }
+    .emty{
+        display: block;
+    }
+    .cart2{
+        position: absolute;
+        top: 320px;
+        left: 28%;
+        background-color: hsl(14, 86%, 42%);
+        display: flex;
+        border-radius: 20px;
+        padding: 10px;
+        justify-content: space-between;
+        width: 140px;
+        border: 1px solid hsl(12, 20%, 44%);
+        margin-bottom: 10px;
+    }
+    .cart1{
+        position: absolute;
+        top: 319px;
+        left: 28%;
+        justify-content: center;
+        background-color: #fff;
+        display: flex;
+        border-radius: 20px;
+        padding: 10px;
+        gap: 5px;
+        width: 140px;
+        border: 1px solid hsl(12, 20%, 44%);
+        margin-bottom: 10px;
+    }
+    .p3{
+        color: hsl(14, 86%, 42%);
+        font-weight: 700;
+        margin-bottom: 30px;
     }
 }
